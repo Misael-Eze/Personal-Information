@@ -1,0 +1,66 @@
+#cont-biografia {
+    background-color: whitesmoke;
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#biografia {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    align-items: start;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#animacionBiografia span {
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(1em);
+    transition: opacity 0.5s, transform 0.5s;
+    margin: 0;
+    /* Elimina márgenes que pueden causar espacios adicionales */
+    padding: 0;
+    /* Elimina rellenos que pueden causar espacios adicionales */
+}
+
+#animacionBiografia span.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#sobreMi {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#cont-biografia img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+}
+
+#cont-proyectos {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+}
+
+#cont-proyectos-row {
+    width: 100%;
+    margin-top: 24px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    /* Ajusta la altura según tus necesidades */
+    object-fit: cover;
+}
