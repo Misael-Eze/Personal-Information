@@ -115,6 +115,14 @@
     transform: translateY(50px);
 }
 
-#sobremi-container {
-    background-color: aqua;
+#sobremi-row {
+    background-color: #CCd0Cf;
+    color: #06141b;
+}
+
+#contacto {
+    background-color: #A0A9AD;
+    color: #06141b;
+    height: 600px;
+    width: 100%;
 }
